@@ -1,0 +1,13 @@
+name: zenon_snapshot
+description: save a list of addresses that have interacted with NoM
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  znn_sdk_dart:
+    git:
+      url: https://github.com/zenon-network/znn_sdk_dart.git
+      ref: master
